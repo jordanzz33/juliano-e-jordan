@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultas Médicas - Clínica Vida+</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Clínica Vida+</h1>
+    <p>Sistema de Consultas Médicas</p>
+  </header>
+
+  <main>
+    <section class="consultas">
+      <h2>Consultas Agendadas</h2>
+
+      <div class="busca">
+        <input type="text" id="campoBusca" placeholder="Buscar por especialidade...">
+        <button onclick="buscarConsulta()">Buscar</button>
+        <button onclick="mostrarConsultas()">Mostrar Todas</button>
+      </div>
+
+      <table id="tabela">
+        <tr>
+          <th>Paciente</th>
+          <th>Médico</th>
+          <th>Especialidade</th>
+          <th>Data</th>
+          <th>Hora</th>
+          <th>Status</th>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Clínica Vida+ | Projeto escolar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

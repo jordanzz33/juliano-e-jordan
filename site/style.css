@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(to right, #e0f2fe, #f1f5f9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.consultas {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 900px;
+}
+
+h2 {
+  color: #2563eb;
+  border-left: 6px solid #3b82f6;
+  padding-left: 10px;
+}
+
+.busca {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #94a3b8;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+footer {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
